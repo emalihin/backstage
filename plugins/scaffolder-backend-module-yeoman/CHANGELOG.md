@@ -1,5 +1,13 @@
 # @backstage/plugin-scaffolder-backend-module-yeoman
 
+## 0.1.6
+
+### Patch Changes
+
+- c82cd1b137: Bump `yeoman-environment` dependency from `^3.6.0` to `^3.9.1`.
+- Updated dependencies
+  - @backstage/plugin-scaffolder-backend@0.15.25
+
 ## 0.1.5
 
 ### Patch Changes

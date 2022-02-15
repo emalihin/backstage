@@ -1,5 +1,27 @@
 # @backstage/plugin-catalog
 
+## 0.8.0
+
+### Minor Changes
+
+- 37092662cb: **BREAKING** Completely removed the `EntitySystemDiagramCard` component which was deprecated in a previous release. Any remaining references to this component are now broken and should be replaced with `EntityCatalogGraphCard`, which can be imported from package `@backstage/plugin-catalog-graph`.
+
+### Patch Changes
+
+- 1ed305728b: Bump `node-fetch` to version 2.6.7 and `cross-fetch` to version 3.1.5
+- 538ca90790: Use updated type names from `@backstage/catalog-client`
+- 244d24ebc4: Import `Location` from the `@backstage/catalog-client` package.
+- 27eccab216: Replaces use of deprecated catalog-model constants.
+- Updated dependencies
+  - @backstage/catalog-client@0.7.0
+  - @backstage/core-components@0.8.9
+  - @backstage/core-plugin-api@0.6.1
+  - @backstage/errors@0.2.1
+  - @backstage/integration-react@0.1.22
+  - @backstage/plugin-catalog-react@0.6.15
+  - @backstage/catalog-model@0.10.0
+  - @backstage/plugin-catalog-common@0.1.3
+
 ## 0.7.12
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @backstage/plugin-badges-backend
 
+## 0.1.19
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-common@0.10.8
+  - @backstage/catalog-client@0.7.0
+  - @backstage/errors@0.2.1
+  - @backstage/catalog-model@0.10.0
+
 ## 0.1.18
 
 ### Patch Changes
